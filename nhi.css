@@ -1,0 +1,36 @@
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background: #170f8e;
+}
+
+#container {
+    background-image: url("image_finance.jpg");  
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    float: left;
+    margin: auto;
+    height: 100%;
+    border: 3px;
+    padding: 10px;
+    
+    text-align: center; 
+}
+
+#visualize {
+   background-color: white;
+   color: #007bff;
+   opacity: 0.85;
+   font-size: 25pt;
+}
